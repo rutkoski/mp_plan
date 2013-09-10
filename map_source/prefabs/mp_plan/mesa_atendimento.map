@@ -1,0 +1,126 @@
+iwmap 4
+"000_Global" flags  active
+"The Map" flags 
+// entity 0
+{
+"classname" "worldspawn"
+// brush 0
+{
+ ( 100 52 36 ) ( 44 52 36 ) ( 44 12 36 ) ap_wood_tile_big 128 128 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 44 12 37 ) ( 44 52 37 ) ( 100 52 37 ) ap_wood_tile_big 128 128 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 44 -36 5 ) ( 100 -36 5 ) ( 100 -36 -3 ) ap_wood_tile_big 128 128 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 84 12 5 ) ( 84 52 5 ) ( 84 52 -3 ) ap_wood_tile_big 128 128 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 100 36 5 ) ( 44 36 5 ) ( 44 36 -3 ) ap_wood_tile_big 128 128 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -84 52 5 ) ( -84 12 5 ) ( -84 12 -3 ) ap_wood_tile_big 128 128 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 1
+{
+ ( 88 36 0 ) ( 84 36 0 ) ( 84 32 0 ) ap_wood_tile_big 128 128 4 -4 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 80 32 36 ) ( 80 36 36 ) ( 84 36 36 ) ap_wood_tile_big 128 128 4 -4 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 80 32 40 ) ( 84 32 40 ) ( 84 32 36 ) ap_wood_tile_big 128 128 4 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 84 32 36 ) ( 84 36 36 ) ( 84 36 32 ) ap_wood_tile_big 128 128 4 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 84 36 40 ) ( 80 36 40 ) ( 80 36 36 ) ap_wood_tile_big 128 128 4 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 80 36 40 ) ( 80 32 40 ) ( 80 32 36 ) ap_wood_tile_big 128 128 4 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 2
+{
+ ( 88 -32 0 ) ( 84 -32 0 ) ( 84 -36 0 ) ap_wood_tile_big 128 128 4 64 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 80 -36 36 ) ( 80 -32 36 ) ( 84 -32 36 ) ap_wood_tile_big 128 128 4 64 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 80 -36 40 ) ( 84 -36 40 ) ( 84 -36 36 ) ap_wood_tile_big 128 128 4 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 84 -36 36 ) ( 84 -32 36 ) ( 84 -32 32 ) ap_wood_tile_big 128 128 -64 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 84 -32 40 ) ( 80 -32 40 ) ( 80 -32 36 ) ap_wood_tile_big 128 128 4 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 80 -32 40 ) ( 80 -36 40 ) ( 80 -36 36 ) ap_wood_tile_big 128 128 -64 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 3
+{
+ ( -76 -32 0 ) ( -80 -32 0 ) ( -80 -36 0 ) ap_wood_tile_big 128 128 -160 64 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -84 -36 36 ) ( -84 -32 36 ) ( -80 -32 36 ) ap_wood_tile_big 128 128 -160 64 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -84 -36 40 ) ( -80 -36 40 ) ( -80 -36 36 ) ap_wood_tile_big 128 128 -160 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -80 -36 36 ) ( -80 -32 36 ) ( -80 -32 32 ) ap_wood_tile_big 128 128 -64 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -80 -32 40 ) ( -84 -32 40 ) ( -84 -32 36 ) ap_wood_tile_big 128 128 -160 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -84 -32 40 ) ( -84 -36 40 ) ( -84 -36 36 ) ap_wood_tile_big 128 128 -64 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 4
+{
+ ( -76 36 0 ) ( -80 36 0 ) ( -80 32 0 ) ap_wood_tile_big 128 128 -160 -4 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -84 32 36 ) ( -84 36 36 ) ( -80 36 36 ) ap_wood_tile_big 128 128 -160 -4 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -84 32 40 ) ( -80 32 40 ) ( -80 32 36 ) ap_wood_tile_big 128 128 -160 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -80 32 36 ) ( -80 36 36 ) ( -80 36 32 ) ap_wood_tile_big 128 128 4 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -80 36 40 ) ( -84 36 40 ) ( -84 36 36 ) ap_wood_tile_big 128 128 -160 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -84 36 40 ) ( -84 32 40 ) ( -84 32 36 ) ap_wood_tile_big 128 128 4 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 5
+{
+ ( 6 36 0 ) ( 2 36 0 ) ( 2 32 0 ) ap_wood_tile_big 128 128 -78 -4 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -2 32 36 ) ( -2 36 36 ) ( 2 36 36 ) ap_wood_tile_big 128 128 -78 -4 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -2 32 40 ) ( 2 32 40 ) ( 2 32 36 ) ap_wood_tile_big 128 128 -78 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 2 32 36 ) ( 2 36 36 ) ( 2 36 32 ) ap_wood_tile_big 128 128 4 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 2 36 40 ) ( -2 36 40 ) ( -2 36 36 ) ap_wood_tile_big 128 128 -78 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -2 36 40 ) ( -2 32 40 ) ( -2 32 36 ) ap_wood_tile_big 128 128 4 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 6
+{
+ ( 6 -32 0 ) ( 2 -32 0 ) ( 2 -36 0 ) ap_wood_tile_big 128 128 -78 64 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -2 -36 36 ) ( -2 -32 36 ) ( 2 -32 36 ) ap_wood_tile_big 128 128 -78 64 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -2 -36 40 ) ( 2 -36 40 ) ( 2 -36 36 ) ap_wood_tile_big 128 128 -78 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 2 -36 36 ) ( 2 -32 36 ) ( 2 -32 32 ) ap_wood_tile_big 128 128 -64 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 2 -32 40 ) ( -2 -32 40 ) ( -2 -32 36 ) ap_wood_tile_big 128 128 -78 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -2 -32 40 ) ( -2 -36 40 ) ( -2 -36 36 ) ap_wood_tile_big 128 128 -64 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+}
+// entity 1
+{
+"origin" "46.0 -30.0 0.0"
+"angles" "0 180 0"
+"model" "prefabs/misc_models/com_office_chair_black.map"
+"classname" "misc_prefab"
+}
+// entity 2
+{
+"origin" "-42.0 -30.0 0.0"
+"angles" "0 180 0"
+"model" "prefabs/misc_models/com_office_chair_black.map"
+"classname" "misc_prefab"
+}
+// entity 3
+{
+"origin" "-40.0 30.0 0.0"
+"angles" "0 2.50448e-006 0"
+"model" "prefabs/misc_models/com_office_chair_black.map"
+"classname" "misc_prefab"
+}
+// entity 4
+{
+"origin" "48.0 30.0 0.0"
+"angles" "0 2.50448e-006 0"
+"model" "prefabs/misc_models/com_office_chair_black.map"
+"classname" "misc_prefab"
+}
+// entity 5
+{
+"origin" "-41.0 17.0 37.0"
+"angles" "0 90 0"
+"model" "prefabs/misc_models/com_laptop_open.map"
+"classname" "misc_prefab"
+}
+// entity 6
+{
+"origin" "48.0 20.0 37.0"
+"angles" "0 90 0"
+"model" "prefabs/misc_models/com_laptop_open.map"
+"classname" "misc_prefab"
+}
+// entity 7
+{
+"origin" "47.0 -16.0 37.0"
+"angles" "0 270 0"
+"model" "prefabs/misc_models/com_laptop_open.map"
+"classname" "misc_prefab"
+}
+// entity 8
+{
+"origin" "-42.0 -19.0 37.0"
+"angles" "0 270 0"
+"model" "prefabs/misc_models/com_laptop_open.map"
+"classname" "misc_prefab"
+}

@@ -1,0 +1,1 @@
+iw3mp.exe +set fs_game "mods/PeZBOT" +set svr_pezbots 4 +set svr_pezbots_team autoassign +set logfile 2 +set monkeytoy 0 +set com_introplayed 1 +devmap mp_plan +set developer 1 +set developer_script 1 +set sv_cheats 1

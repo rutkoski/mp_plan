@@ -1,0 +1,36 @@
+iwmap 4
+"000_Global" flags  active
+"The Map" flags 
+// entity 0
+{
+"classname" "worldspawn"
+}
+// entity 1
+{
+"targetname" "auto1"
+"classname" "script_brushmodel"
+// brush 0
+{
+ ( 460 19 0 ) ( 196 19 0 ) ( 196 11 0 ) com_glass_clear 64 64 -828 1089 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 196 11 104 ) ( 196 19 104 ) ( 460 19 104 ) com_glass_clear 64 64 -828 1089 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 331 -1 104 ) ( 595 -1 104 ) ( 595 -1 0 ) com_glass_clear 64 64 -828 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 504 1 0 ) ( 504 1 104 ) ( 148 1 104 ) com_glass_clear 64 64 -828 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -28 67 104 ) ( -28 59 104 ) ( -28 59 0 ) com_glass_clear 64 64 -1089 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 28 23 104 ) ( 28 7 104 ) ( 28 7 136 ) com_glass_clear 64 64 -1089 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+}
+// entity 2
+{
+"target" "auto1"
+"targetname" "windtrig"
+"classname" "trigger_damage"
+// brush 0
+{
+ ( 30 19 0 ) ( -30 19 0 ) ( -30 13 0 ) trigger 64 64 -972 961 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -30 14 104 ) ( -30 20 104 ) ( 30 20 104 ) trigger 64 64 -972 961 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -30 -1 1 ) ( 30 -1 1 ) ( 30 -1 0 ) trigger 64 64 -972 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 28 13 1 ) ( 28 19 1 ) ( 28 19 0 ) trigger 64 64 -961 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 30 1 -1 ) ( -30 1 -1 ) ( -30 1 -2 ) trigger 64 64 -972 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -28 19 1 ) ( -28 13 1 ) ( -28 13 0 ) trigger 64 64 -961 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+}
